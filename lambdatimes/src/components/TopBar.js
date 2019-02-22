@@ -47,6 +47,7 @@ align-items: center;
 flex-direction: row;
 flex: 3;
 font-size: 9px;
+margin-left: 10%
 `
 const Cspan = styled.span`
 cursor: pointer;
