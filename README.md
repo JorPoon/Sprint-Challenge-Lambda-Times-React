@@ -29,9 +29,24 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+Proptypes are used for making sure the data that gets passed through as props are the correct type such as string should pass in to string proptypes. Typechecking our data helps prevents bugs and errors in our app.
+
 - [ ] Describe a life-cycle event in React?
+
+A life cycle event in React  starts with initializing. Initialize sets up the state and props of our app. After initialization, mounting event occurs which checks if the function mounted into React and if it did it will render out the setState. Next is Updating the data when some form of events or new data input happens. This will update the state through props and React will then render out then new information. After that is unmounting.
+
 - [ ] Explain the details of a Higher Order Component?
+
+Higher Order component is basically a higher order function that will take in one or more components to carry out its function. It  allows us to use component logic for example, we can render out a log in page component when the user is not logged in and if they are logged in, we can render out the actual app page.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+Plain Css styling using a css file is one way to style components. You will be able to separate the styling and the javascript apart in your coding. It will be easier to read for coders because it is more organized.
+
+Another way is inline styling. This is useful when you only want to style that one element a certain way. Coders do not have to look back and forth from the css file and the javascript file. It could be more efficient in a way because everything is in one file.
+
+The third way is using styled components.  It allows us to reuse the components with the styles already inplaced. This allows us to use less className and more reusuable components because the div can be named the way you want. You can also export the styled components out as well for other files.  It is more efficient if you have a lot of components with same styled elements.
 
 ## Project Setup
 
