@@ -37,6 +37,9 @@ Proptypes are used for making sure the data that gets passed through as props ar
 A life cycle event in React  starts with initializing. Initialize sets up the state and props of our app. After initialization, mounting event occurs which checks if the function mounted into React and if it did it will render out the setState. Next is Updating the data when some form of events or new data input happens. This will update the state through props and React will then render out then new information. After that is unmounting.
 
 - [ ] Explain the details of a Higher Order Component?
+
+Higher Order component is basically a higher order function that will take in one or more components to carry out its function. It  allows us to use component logic for example, we can render out a log in page component when the user is not logged in and if they are logged in, we can render out the actual app page.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
 
 ## Project Setup
