@@ -33,6 +33,9 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 Proptypes are used for making sure the data that gets passed through as props are the correct type such as string should pass in to string proptypes. Typechecking our data helps prevents bugs and errors in our app.
 
 - [ ] Describe a life-cycle event in React?
+
+A life cycle event in React  starts with initializing. Initialize sets up the state and props of our app. After initialization, mounting event occurs which checks if the function mounted into React and if it did it will render out the setState. Next is Updating the data when some form of events or new data input happens. This will update the state through props and React will then render out then new information. After that is unmounting.
+
 - [ ] Explain the details of a Higher Order Component?
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
 
