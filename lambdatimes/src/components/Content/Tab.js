@@ -4,7 +4,8 @@ const Tab = props => {
   /* Using your props, determine if the `tab` prop matches the `selectedTab` prop, 
       if they match, the className should be: 'tab active-tab', 
       if it is not it should just be 'tab'*/
-      console.log(props.tab);
+      //console.log(props.selectedTab);
+      //console.log(props.tab)
   return (
     <div
       className={""}
@@ -20,6 +21,7 @@ const Tab = props => {
       { props.tab.toUpperCase()}
     </div>
   );
+  
 };
 
 // Make sure you include PropTypes on your props.
