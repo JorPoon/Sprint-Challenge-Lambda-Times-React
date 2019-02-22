@@ -42,6 +42,12 @@ Higher Order component is basically a higher order function that will take in on
 
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
 
+Plain Css styling using a css file is one way to style components. You will be able to separate the styling and the javascript apart in your coding. It will be easier to read for coders because it is more organized.
+
+Another way is inline styling. This is useful when you only want to style that one element a certain way. Coders do not have to look back and forth from the css file and the javascript file. It could be more efficient in a way because everything is in one file.
+
+The third way is using styled components.  It allows us to reuse the components with the styles already inplaced. This allows us to use less className and more reusuable components because the div can be named the way you want. You can also export the styled components out as well for other files.  It is more efficient if you have a lot of components with same styled elements.
+
 ## Project Setup
 
 Follow these steps to set up your project:
